@@ -2,6 +2,8 @@
 
 KBlog 是一个无需数据库并且程序大小不到 100kb 的超轻量级基于 PHP 的开源博客，所有文章均以 Markdown 格式编写
 
+Demo: [https://kblog.krunk.cn/](https://kblog.krunk.cn/)
+
 
 ## 准备工作
 
@@ -43,7 +45,7 @@ KBlog 是一个无需数据库并且程序大小不到 100kb 的超轻量级基�
 
 ---
 
-##开发文档
+## 开发文档
 
 访问 KBlog 开发文档了解更多: [https://kblog.krunk.cn/](https://kblog.krunk.cn/)
 
