@@ -1,0 +1,1 @@
+<? /* Slience is gold 这里什么都没有 */ ?>

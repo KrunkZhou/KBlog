@@ -1,0 +1,177 @@
+/**
+ * Krunk.cn KBlog - 极简博客
+ *
+ * Project Link: https://kblog.krunk.cn
+ * GitHub: https://github.com/KrunkZhou/KBlog
+ * 
+ * @author     Krunk Zhou
+ * @copyright  2019 Krunk Zhou (https://krunk.cn)
+ */
+
+body {
+	background-color: rgb(40,40,40);
+}
+body, h1, p {
+	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	/*text-align: center;*/
+	color: #FFFFFF;
+}
+
+h1{
+	font-weight: bold;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.post{
+	margin: 0 100px 0 100px;
+}
+
+.logo{
+	padding: 15px 0px;
+	transition: 0.5s;
+	height: 55px;
+}
+
+.logo:hover {
+	height: 65px;
+}
+
+#headerNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(255,255,255,.1);
+}
+
+#headerNav li {
+	float: left;
+}
+
+#headerNav li a {
+	font-family: 'Kanit', sans-serif;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+#headerNav li .active{
+	background-color: rgba(100,100,100,.7);
+}
+
+#headerNav li a:hover {
+	background-color: rgba(80,80,80,.8);
+	padding: 14px 25px;
+}
+
+footer {
+	font-family: 'Ubuntu', sans-serif;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	background: rgba(51,51,51,.5);
+	padding-top: 15px;
+}
+
+.bottomlogo{
+	width: 80px;
+	transition: 0.5s;
+	padding-top: 5px;
+}
+
+code {
+	/*width: 100%;*/
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 12px;
+	line-height: 20px;
+	background: rgb(50,50,50);
+	border: 1px solid rgb(60,60,60);
+	border-radius: 7px;
+	padding: 5px 5px 5px 5px;
+}
+
+pre code{
+	padding: 0;
+	border: 0px solid;
+}
+
+pre {
+	display: block;
+	/*width: 100%;*/
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 12px;
+	line-height: 20px;
+	background: rgb(50,50,50);
+	border: 1px solid rgb(60,60,60);
+	border-radius: 7px;
+	padding: 10px 15px 10px 15px;
+	margin: 10px 0 10px 0;
+}
+
+.postCardDiv{
+	margin: 0 20% 0 20%;
+}
+
+.postCard {
+	border-radius: 15px;
+	border: 5px solid rgb(60,60,60);
+	padding: 10px 10px 10px 10px;
+	transition: 0.3s;
+}
+
+.postCard:hover {
+	border-radius: 25px;
+	border: 5px solid rgb(100,100,100);
+	padding: 10px 10px 10px 10px;
+}
+
+table {
+	border-collapse: collapse;
+	margin:5px 5px 5px 5px;
+}
+
+td, th {
+	border: 2px solid #ddd;
+	padding: 8px;
+}
+
+thead {
+	background-color: rgb(70,70,70);
+}
+
+tr:nth-child(even){background-color: rgb(60,60,60);}
+
+tr:hover {background-color: rgb(70,70,70);}
+
+img {
+	max-width: 100%;
+}
+
+@media only screen and (max-width:765px) {
+	.logo:hover {
+		height: 60px;
+	}
+	.post{
+		margin: 0 10px 0 10px;
+	}
+	.postCardDiv{
+		margin: 0 2% 0 2%;
+	}
+}
