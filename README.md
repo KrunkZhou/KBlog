@@ -53,4 +53,4 @@ Demo: [https://kblog.krunk.cn/](https://kblog.krunk.cn/)
 
 ## 开源协议
 
-此项目代码采用 [MIT 许可证协议](https://kblog.krunk.cn/LICENSE.txt)
+此项目代码采用 [MIT 许可证协议](https://kblog.krunk.cn/LICENSE)
